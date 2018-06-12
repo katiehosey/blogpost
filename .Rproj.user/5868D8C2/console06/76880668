@@ -1,0 +1,208 @@
+]0;~/Documents/CapeTown/day-12/test-blog[?1034hKaties-MacBook-Pro-3:test-blog katie$ [KKaties-MacBook-Pro-3:test-blog katie$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/5868D8C2/console06/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git rm -rf public/
+rm 'public/.gitkeep'
+rm 'public/2015/01/01/lorem-ipsum/index.html'
+rm 'public/2015/07/23/hello-r-markdown/index.html'
+rm 'public/2016/12/30/a-plain-markdown-post/index.html'
+rm 'public/2018/06/12/another-new-post/index.html'
+rm 'public/2018/06/12/first-new-post/index.html'
+rm 'public/about/index.html'
+rm 'public/categories/index.html'
+rm 'public/categories/index.xml'
+rm 'public/categories/r/index.html'
+rm 'public/categories/r/index.xml'
+rm 'public/css/fonts.css'
+rm 'public/css/main.css'
+rm 'public/fonts/lato-v11-latin-regular.woff'
+rm 'public/fonts/lato-v11-latin-regular.woff2'
+rm 'public/fonts/merriweather-v13-latin-regular.woff'
+rm 'public/fonts/merriweather-v13-latin-regular.woff2'
+rm 'public/images/hugo-logo.png'
+rm 'public/images/logo.png'
+rm 'public/index.html'
+rm 'public/index.xml'
+rm 'public/js/math-code.js'
+rm 'public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png'
+rm 'public/post/2018-06-12-another-new-post_files/figure-html/unnamed-chunk-2-1.png'
+rm 'public/post/index.html'
+rm 'public/post/index.xml'
+rm 'public/sitemap.xml'
+rm 'public/tags/index.html'
+rm 'public/tags/index.xml'
+rm 'public/tags/plot/index.html'
+rm 'public/tags/plot/index.xml'
+rm 'public/tags/r-markdown/index.html'
+rm 'public/tags/r-markdown/index.xml'
+rm 'public/tags/regression/index.html'
+rm 'public/tags/regression/index.xml'
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    public/.gitkeep[m
+	[32mdeleted:    public/2015/01/01/lorem-ipsum/index.html[m
+	[32mdeleted:    public/2015/07/23/hello-r-markdown/index.html[m
+	[32mdeleted:    public/2016/12/30/a-plain-markdown-post/index.html[m
+	[32mdeleted:    public/2018/06/12/another-new-post/index.html[m
+	[32mdeleted:    public/2018/06/12/first-new-post/index.html[m
+	[32mdeleted:    public/about/index.html[m
+	[32mdeleted:    public/categories/index.html[m
+	[32mdeleted:    public/categories/index.xml[m
+	[32mdeleted:    public/categories/r/index.html[m
+	[32mdeleted:    public/categories/r/index.xml[m
+	[32mdeleted:    public/css/fonts.css[m
+	[32mdeleted:    public/css/main.css[m
+	[32mdeleted:    public/fonts/lato-v11-latin-regular.woff[m
+	[32mdeleted:    public/fonts/lato-v11-latin-regular.woff2[m
+	[32mdeleted:    public/fonts/merriweather-v13-latin-regular.woff[m
+	[32mdeleted:    public/fonts/merriweather-v13-latin-regular.woff2[m
+	[32mdeleted:    public/images/hugo-logo.png[m
+	[32mdeleted:    public/images/logo.png[m
+	[32mdeleted:    public/index.html[m
+	[32mdeleted:    public/index.xml[m
+	[32mdeleted:    public/js/math-code.js[m
+	[32mdeleted:    public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
+	[32mdeleted:    public/post/2018-06-12-another-new-post_files/figure-html/unnamed-chunk-2-1.png[m
+	[32mdeleted:    public/post/index.html[m
+	[32mdeleted:    public/post/index.xml[m
+	[32mdeleted:    public/sitemap.xml[m
+	[32mdeleted:    public/tags/index.html[m
+	[32mdeleted:    public/tags/index.xml[m
+	[32mdeleted:    public/tags/plot/index.html[m
+	[32mdeleted:    public/tags/plot/index.xml[m
+	[32mdeleted:    public/tags/r-markdown/index.html[m
+	[32mdeleted:    public/tags/r-markdown/index.xml[m
+	[32mdeleted:    public/tags/regression/index.html[m
+	[32mdeleted:    public/tags/regression/index.xml[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/5868D8C2/console06/[m
+
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git commit -m "deleted public"
+[master ea5aedc] deleted public
+ 35 files changed, 2303 deletions(-)
+ delete mode 100644 public/.gitkeep
+ delete mode 100644 public/2015/01/01/lorem-ipsum/index.html
+ delete mode 100644 public/2015/07/23/hello-r-markdown/index.html
+ delete mode 100644 public/2016/12/30/a-plain-markdown-post/index.html
+ delete mode 100644 public/2018/06/12/another-new-post/index.html
+ delete mode 100644 public/2018/06/12/first-new-post/index.html
+ delete mode 100644 public/about/index.html
+ delete mode 100644 public/categories/index.html
+ delete mode 100644 public/categories/index.xml
+ delete mode 100644 public/categories/r/index.html
+ delete mode 100644 public/categories/r/index.xml
+ delete mode 100644 public/css/fonts.css
+ delete mode 100644 public/css/main.css
+ delete mode 100644 public/fonts/lato-v11-latin-regular.woff
+ delete mode 100644 public/fonts/lato-v11-latin-regular.woff2
+ delete mode 100644 public/fonts/merriweather-v13-latin-regular.woff
+ delete mode 100644 public/fonts/merriweather-v13-latin-regular.woff2
+ delete mode 100644 public/images/hugo-logo.png
+ delete mode 100644 public/images/logo.png
+ delete mode 100644 public/index.html
+ delete mode 100644 public/index.xml
+ delete mode 100644 public/js/math-code.js
+ delete mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ delete mode 100644 public/post/2018-06-12-another-new-post_files/figure-html/unnamed-chunk-2-1.png
+ delete mode 100644 public/post/index.html
+ delete mode 100644 public/post/index.xml
+ delete mode 100644 public/sitemap.xml
+ delete mode 100644 public/tags/index.html
+ delete mode 100644 public/tags/index.xml
+ delete mode 100644 public/tags/plot/index.html
+ delete mode 100644 public/tags/plot/index.xml
+ delete mode 100644 public/tags/r-markdown/index.html
+ delete mode 100644 public/tags/r-markdown/index.xml
+ delete mode 100644 public/tags/regression/index.html
+ delete mode 100644 public/tags/regression/index.xml
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git push
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 226 bytes | 226.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/katiehosey/blogpost.git
+   cf3fb47..ea5aedc  master -> master
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git log
+[?1h=[33mcommit ea5aedca4e51d3d1132c70e840f5767b91a2465e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Katie Hosey <kh7dd@virginia.edu>[m
+Date:   Tue Jun 12 16:40:47 2018 +0200[m
+[m
+    deleted public[m
+[m
+[33mcommit cf3fb47c7a95b2b2b9ccf66a924e38d811cf7352[m[m
+Author: Katie Hosey <kh7dd@virginia.edu>[m
+Date:   Tue Jun 12 16:27:09 2018 +0200[m
+[m
+    first commit[m
+[K[?1l>]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git checkout cf3fb47c7a95b2b2b9ccf66a924e38d811cf7352
+M	.Rproj.user/5868D8C2/sources/prop/3E194FD3
+M	.Rproj.user/5868D8C2/sources/prop/INDEX
+M	.Rproj.user/5868D8C2/sources/s-A6D0D51E/9FB47352
+M	.Rproj.user/5868D8C2/sources/s-A6D0D51E/9FB47352-contents
+M	.Rproj.user/5868D8C2/sources/s-A6D0D51E/FC321A0C
+M	.Rproj.user/5868D8C2/sources/s-A6D0D51E/FC321A0C-contents
+M	.Rproj.user/shared/notebooks/paths
+M	content/post/2018-06-12-another-new-post.Rmd
+D	content/post/2018-06-12-first-new-post.md
+Note: checking out 'cf3fb47c7a95b2b2b9ccf66a924e38d811cf7352'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at cf3fb47 first commit
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ rm -fr .git/[K[K[K[K[K[K[K[Krf .git/[K[K[K[K[K[K[K[K[K[K[K[Kgit -[K[K[K[K[Krm -fr [K[K[Krf .git/
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ cd DOc[K[Kocuments
+bash: cd: Documents: No such file or directory
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ cd documents[K[K[K[K[K[K[K[K[K[K[K[K
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ ls -A
+.Rproj.user	archetypes	content		index.Rmd	public		test-blog.Rproj
+README.md	config.toml	data		layouts		static		themes
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ ls -A[Ka
+.		.Rproj.user	archetypes	content		index.Rmd	public		test-blog.Rproj
+..		README.md	config.toml	data		layouts		static		themes
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git init
+Initialized empty Git repository in /Users/katie/Documents/CapeTown/day-12/test-blog/.git/
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ vim.[K .gitignore
+[?2004h]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git staus[K[Ktus
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31m.gitignore[m
+	[31mREADME.md[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mstatic/[m
+	[31mtest-blog.Rproj[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/CapeTown/day-12/test-blogKaties-MacBook-Pro-3:test-blog katie$ git add -A
